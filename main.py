@@ -20,5 +20,13 @@ print(f'My cats name is {my_cats_name} and she is {my_cats_age} years old. She c
 print(my_cats_age)
 # Turning Orby's name into all uppercase
 print(my_cats_name.upper())
-
-# Functions
+# Checking to see if
+print(my_cats_name.isupper())
+# Converting the variable to upper then checking to see if its upper
+print(my_cats_name.upper().isupper())
+# Getting the length of the string
+print(len(my_cats_name))
+# Getting the first letter of the variable name
+print(my_cats_name[0])
+# Indexes start with zero
+print(my_cats_name.index("y"))

@@ -30,3 +30,6 @@ print(len(my_cats_name))
 print(my_cats_name[0])
 # Indexes start with zero
 print(my_cats_name.index("y"))
+print(my_cats_name.replace("rby", "RBY"))
+
+# Numbers

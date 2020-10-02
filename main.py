@@ -1,3 +1,5 @@
+from math import *
+
 # This is code that I wrote / played with when taking a freecodecamp Python course to refresh my memory
 
 # A comment shortcut in Pycharm is control + /
@@ -33,3 +35,25 @@ print(my_cats_name.index("y"))
 print(my_cats_name.replace("rby", "RBY"))
 
 # Numbers
+# PEMDAS order
+print(2*4)
+# Mod
+print(10 %3)
+my_num = 1
+print(my_num + 1)
+print(str(my_num))
+# Common math functions
+# Absolute
+print(abs(my_num))
+# Power
+print(pow(2, 2))
+# Max (also has min)
+print(max(2, 10))
+# Round (rounds stuff)
+print(round(3.2))
+# Floor
+print(floor(3.7))
+# Ceil
+print(ceil(2.2))
+# SQRT
+print(sqrt(5))
